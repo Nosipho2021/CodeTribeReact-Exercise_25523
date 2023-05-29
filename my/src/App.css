@@ -1,0 +1,43 @@
+.centered-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow-y: scroll;
+  max-height: 300px;
+  margin-right: 10px;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
